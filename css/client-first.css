@@ -26,3 +26,7 @@ body{color:var(--text);background:var(--bg)}h1,h2,h3{font-weight:400}a:hover{col
 h1,h2,h3,h4,.portrait figcaption strong{font-family:var(--display);font-weight:400}
 
 .service-scope-table{min-width:0}.service-scope-table th:first-child,.service-scope-table td:first-child{width:32%}.service-scope-table th:last-child,.service-scope-table td:last-child{width:auto!important;min-width:0!important;font-weight:400;color:#526354;margin-top:0}.service-scope-table th:last-child{color:#385623;font-weight:600}.service-fee-note{margin-top:22px;font-weight:600;color:#183b2b;line-height:1.75}
+
+/* 2569-11-27 mobile: portrait first */
+@media(max-width:700px){.client-hero .hero-grid{display:flex;flex-direction:column}.client-hero .portrait{order:-1;display:grid;grid-template-columns:132px minmax(0,1fr);align-items:end;gap:16px;margin:0 0 22px}.client-hero .portrait>img{width:132px;height:176px;object-fit:cover;object-position:top}}
+@media(max-width:360px){.client-hero .portrait{grid-template-columns:112px minmax(0,1fr)}.client-hero .portrait>img{width:112px;height:150px}}
