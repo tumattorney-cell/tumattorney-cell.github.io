@@ -35,7 +35,7 @@
       subj='ติดต่อ LAKP — '+(v('topic')||'ติดต่อ LAKP');
       body=['ชื่อ: '+v('name'),'องค์กร/ตำแหน่ง: '+v('org'),'อีเมลหรือเบอร์ติดต่อกลับ: '+v('reply'),'เรื่องที่สนใจ: '+v('topic'),'','รายละเอียดโดยสังเขป:',v('msg')].join('\n');
     }
-    window.location.href='mailto:center@legaladvisor-lakp.com?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);
+    window.location.href='mailto:center@lakp.co.th?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);
   })}
   // reveal
   var rv=d.querySelectorAll('.rv');
