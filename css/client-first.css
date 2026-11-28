@@ -30,3 +30,14 @@ h1,h2,h3,h4,.portrait figcaption strong{font-family:var(--display);font-weight:4
 /* 2569-11-27 mobile: portrait first */
 @media(max-width:700px){.client-hero .hero-grid{display:flex;flex-direction:column}.client-hero .portrait{order:-1;display:grid;grid-template-columns:132px minmax(0,1fr);align-items:end;gap:16px;margin:0 0 22px}.client-hero .portrait>img{width:132px;height:176px;object-fit:cover;object-position:top}}
 @media(max-width:360px){.client-hero .portrait{grid-template-columns:112px minmax(0,1fr)}.client-hero .portrait>img{width:112px;height:150px}}
+
+/* Office social links (Facebook, Instagram) — 2026-11-28 */
+.social-bar{padding-top:8px;margin-top:8px}
+.social-links{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+.social-links a{display:inline-flex;align-items:center;gap:8px;color:#183b2b;text-decoration:none;font-size:14px;font-weight:600}
+.social-links a:hover{color:#385623;text-decoration:underline;text-underline-offset:4px}
+.social-links svg{display:block;flex-shrink:0}
+.contact-social{margin:28px 0 0}
+.contact-social h3{font-size:22px;margin-bottom:14px}
+.contact-social .social-links{margin-bottom:14px}
+.contact-social .caption a{color:#385623}
